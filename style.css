@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+* {
+  margin: solid;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #960018;
+  gap: 20px;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/5a/93/4e/5a934e84f67d2a61a118ec95b1d6cb74.gif);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+section {
+  margin: 40px;
+  border: 3px;
+  border-style: solid;
+  border-color: red;
+  height: 100%;
+  background-color: black;
+}
+
+div {
+  height: 100%;
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  background-color: black;
+}
+
+img {
+  width: 40%;
+  height: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+p {
+  color: white;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h2 {
+  color: rgb(105, 5, 85);
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  width: 90px;
+  height: 25px;
+  padding: 3px;
+  border-width: 3px;
+  border-style: double;
+  font-weight: 1px;
+  font-size: 9px;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: black;
+  border-color: #960018;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#coluna1 {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border: 10px;
+  padding: 15px;
+  border: hidden;
+}
+
+#coluna2 {
+  width: 50%;
+  height: 50%;
+  float: right;
+  border: 10px;
+  padding: 15px;
+  border: hidden;
+}
+
+#contener-in {
+  height: 100%;
+  margin: 10px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border-style: hidden;
+  gap: 20px;
+}
+
+#contener-ex {
+  margin: 40px;
+  align-items: center;
+}
+
+.cards {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  border: 3px;
+  border-color: red;
+  height: 50%;
+  margin: 10px;
+  gap: 10px;
+}
+
+.cards-text {
+  width: 50%;
+  display: inline;
+  border: none;
+  float: right;
+  margin: 10px;
+  gap: 10px;
+}
+
+#img-prime {
+  border: 1px;
+  border-style: dashed;
+  border-color: red;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#text-prime {
+  border-style: hidden;
+  float: right;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+}
+
+#título-prime {
+  font-size: 40px;
+  color: rgb(110, 10, 90);
+  margin-bottom: 23px;
+}
+
+#subtítulo {
+  font-size: 15px;
+  color: #960018;
+  font-weight: bolder;
+}
+
+#descrição-prime {
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .cards-text {
+    font-size: 4px;
+  }
+  section {
+    font-size: 4px;
+  }
+  button {
+    color: white;
+    width: 37px;
+    height: 13px;
+    padding: 3px;
+    font-size: 4px;
+  }
+  #text-prime {
+    width: 40%;
+  }
+}/*# sourceMappingURL=style.css.map */
