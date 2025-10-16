@@ -1,0 +1,51 @@
+﻿[Arrow]
+Path=01Normal Select.ani
+
+[Help]
+Path=02Help.ani
+
+[AppStarting]
+Path=03Working in background.ani
+
+[Wait]
+Path=04Busy.ani
+
+[Crosshair]
+Path=05Precision Select.ani
+
+[IBeam]
+Path=06Text.ani
+
+[NWPen]
+Path=07Handwriting.ani
+
+[No]
+Path=08Unavailable.ani
+
+[SizeNS]
+Path=09VerticalResize.ani
+
+[SizeWE]
+Path=10HorizontalResize.ani
+
+[SizeNWSE]
+Path=11DiagonalResize.ani
+
+[SizeNESW]
+Path=12DiagonalResize2.ani
+
+[SizeAll]
+Path=13Move.ani
+
+[UpArrow]
+Path=14Alternate.ani
+
+[Hand]
+Path=15Link Select.ani
+
+[Pin]
+Path=16LocationSelect.ani
+
+[Person]
+Path=17PersonSelect.ani
+
